@@ -14,7 +14,7 @@ async function handleFormSubmit(event) {
     const formData = new FormData(formBoatmodel);
     const objectData = formDataToObject(formData);
 
-    await createBoat(objectData);
+    await CreateBoat(objectData);
 
     actionFetchBoatmodels()
 }
@@ -47,18 +47,16 @@ async function postFormDataAsJson(url, jsonToSend) {
 /// fill table with boatmodels
 
 const urlGetBoatmodels = 'http://localhost:8080/boats'
-const tableBoatmodel = document.getElementById('boatmodel-list')
+const tableBoatmodel = document.getElementById('Boatmodel-list')
 
 async function createBoatmodelTable(boatmodel) {
     const row = document.createElement('tr');
     row.innerHTML = `
       <td>${boatmodel.id}</td>
-      <td>${boatmodel.name}</td>
-      <td>${boatmodel.age}</td>
-      <td>${boatmodel.email}</td>
+      <td>${boatmodel.type}</td>
     `;
 
-    cell = row.insertCell(4)
+    cell = row.insertCell(2)
     let pbUpdate = document.createElement("button")
     pbUpdate.textContent = "Opdater"
     pbUpdate.className = "buttonupdate"
@@ -69,7 +67,7 @@ async function createBoatmodelTable(boatmodel) {
     tableBoatmodel.appendChild(row);
 
     //Delete boat
-    cell = row.insertCell(5)
+    cell = row.insertCell(2)
     let pbDelete = document.createElement("button")
     pbDelete.textContent = "Delete"
     pbDelete.className = "btn btn-primary" /*buttondelete*/
@@ -81,11 +79,11 @@ async function createBoatmodelTable(boatmodel) {
 
 }
 
-let lstBoatmodels = []
+let lstBoat = []
 async function actionFetchBoatmodels() {
-    lstBoatmodels = await fetchAny(urlGetBoatmodels);
+    lstBoat = await fetchAny(urlGetBoatmodels);
     tableBoatmodel.innerHTML = '';
-    lstBoatmodels.forEach(createBoatmodelTable)
+    lstBoat.forEach(createBoatmodelTable)
 }
 actionFetchBoatmodels()
 function printTest(testid, boatmodel) {

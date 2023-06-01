@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="222180f6-41a5-4f4b-a27f-4a620f9128f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/FetchAny.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Frontpage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/boatClient.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/boatmodelform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EksamenFrontend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/HTML/BoatPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FetchAny.js" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JS/FetchAny.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Frontpage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/boatClient.js" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JS/boatClient.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/boatmodelform.js" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JS/boatmodelform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,13 +21,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2QavEH4LwlIDdoScCFG4remnQpp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -50,9 +49,16 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SnowPiercer\Documents\GitHub\eksamen24timersFrontend\.idea\HTML" />
+      <recent name="C:\Users\SnowPiercer\Documents\GitHub\eksamen24timersFrontend\.idea\JS" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,6 +68,9 @@
       <option name="presentableId" value="Default" />
       <updated>1685604395595</updated>
       <workItem from="1685604396600" duration="5474000" />
+      <workItem from="1685626157245" duration="528000" />
+      <workItem from="1685626728673" duration="11127000" />
+      <workItem from="1685643515826" duration="3696000" />
     </task>
     <servers />
   </component>

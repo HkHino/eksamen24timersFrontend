@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <title>Boats</title>
+  <link href="../CSS/boats.css">
+
+</head>
+<body>
+  <h1>Boat listing</h1>
+  <table>
+    <thead>
+      <th>id</th>
+      <th>type</th>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </thead>
+    <tbody id="boatTable">
+
+    </tbody>
+  </table>
+
+  <h1 id="btn-label">
+    Create new boat
+  </h1>
+
+  <select id="boatTypeSelector">
+    <option selected></option>
+    <option value="25fod">25fod</option>
+    <option value="25_40fod">25_40fod</option>
+    <option value="40fod">40fod</option>
+  </select>
+
+  <button id="btn-createBoat">
+    Create
+  </button>
+
+  <button id="btn-updateBoat">
+    Update
+  </button>
+
+  <script src="../JS/boatClient.js"></script>
+  <script src="../JS/boats.js"></script>
+
+</body>
+
+<style>
+  table
+  {
+    line-height:2.00em;
+    text-align:left;
+  }
+  table td
+  {
+    padding-right:1.0em;
+  }
+  .btn-delete
+  {
+    color:red;
+  }
+  .btn-update:hover,
+  .btn-delete:hover
+  {
+    color:blue;
+    cursor: pointer;
+  }
+  #boatTypeSelector
+  {
+    display:block;
+    margin-bottom:0.25em;
+  }
+  #boatTypeSelector,
+  #btn-createBoat,
+  #btn-updateBoat
+  {
+    width:300px;
+    line-height: 2.00em;
+    height:2.00em;
+  }
+</style>
+</html>
