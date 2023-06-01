@@ -1,4 +1,4 @@
-var path = "http://localhost:8080/points"
+var path = "http://localhost:8080/sailors"
 
 async function getAllSailors() {
 

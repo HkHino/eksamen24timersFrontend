@@ -1,4 +1,4 @@
-const urlPostSailormodel = 'http://localhost:8080/sailor'
+const urlPostSailormodel = 'http://localhost:8080/sailors'
 
 document.addEventListener('DOMContentLoaded', createFormEventListener);
 let formSailormodel;
