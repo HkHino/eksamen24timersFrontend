@@ -1,0 +1,6 @@
+.btn-update:hover,
+.btn-delete:hover
+{
+    color:blue;
+    cursor: pointer;
+}

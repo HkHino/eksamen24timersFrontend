@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="222180f6-41a5-4f4b-a27f-4a620f9128f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/HTML/BoatPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/FetchAny.js" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JS/FetchAny.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Frontpage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/boatClient.js" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JS/boatClient.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/boatmodelform.js" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JS/boatmodelform.js" afterDir="false" />
+    <list default="true" id="222180f6-41a5-4f4b-a27f-4a620f9128f8" name="Changes" comment="spørgsmål 1 færdig! det virker">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +38,6 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -70,11 +64,23 @@
       <workItem from="1685604396600" duration="5474000" />
       <workItem from="1685626157245" duration="528000" />
       <workItem from="1685626728673" duration="11127000" />
-      <workItem from="1685643515826" duration="3696000" />
+      <workItem from="1685643515826" duration="4701000" />
     </task>
+    <task id="LOCAL-00001" summary="spørgsmål 1 færdig! det virker">
+      <created>1685647239841</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685647239841</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="spørgsmål 1 færdig! det virker" />
+    <option name="LAST_COMMIT_MESSAGE" value="spørgsmål 1 færdig! det virker" />
   </component>
 </project>
