@@ -47,7 +47,10 @@ async function postFormDataAsJson(url, jsonToSend) {
 /// fill table with sailormodels
 
 const urlGetSailormodels = 'http://localhost:8080/sailors'
-const tableSailormodel = document.getElementById('Sailormodel-list')
+const tableSailormodel = document.getElementById('Sailormodel-list') //i can see the problem is
+                                                                                          //with this table it return
+                                                                                          // null. the problem is solvable by
+                                                                                          //
 
 async function createSailormodelTable(sailormodel) {
     const row = document.createElement('tr');
@@ -57,7 +60,7 @@ async function createSailormodelTable(sailormodel) {
       <td>${sailormodel.contestId}</td>
     `;
 
-    cell = row.insertCell(2)
+    cell = row.insertCell(3)
     let pbUpdate = document.createElement("button")
     pbUpdate.textContent = "Opdater"
     pbUpdate.className = "buttonupdate"
@@ -68,7 +71,7 @@ async function createSailormodelTable(sailormodel) {
     tableSailormodel.appendChild(row);
 
     //Delete Sailor
-    cell = row.insertCell(2)
+    cell = row.insertCell(3)
     let pbDelete = document.createElement("button")
     pbDelete.textContent = "Delete"
     pbDelete.className = "btn btn-primary" /*buttondelete*/
